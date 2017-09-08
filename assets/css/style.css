@@ -1,0 +1,71 @@
+/*
+*/
+
+html{
+    background: url(../img/bac.jpg);
+    background-size: cover;
+}
+
+html ,body{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+button{
+    display: inline-block;
+    border: none;
+    background: none;
+}
+
+
+button:active{
+    border-style: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+.sm_button{
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+
+.sm_button:focus{
+    background: #3d7de9;
+}
+
+.sm_button:active{
+    background: #3d7de9;
+}
+.big_button{
+    padding-top: 5px;
+}
+.big_button img{
+    height:55px;
+}
+
+.first{
+    margin-left: 15px;
+}
+
+#topbar{
+    background-color: rgba(255, 255, 255, 0.50);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.56);
+}
+
+.wrap{min-height:100%}
+
+#dock {
+    margin-top: -65px;
+    height: 65px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: rgba(255, 255, 255, 0.64);
+    border-radius: 5px;
+}
